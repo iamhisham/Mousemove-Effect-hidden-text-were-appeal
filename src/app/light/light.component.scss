@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    // width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hightlights {
+    color: #fff;
+    font-size: 200px;
+}
+
+.light {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at var(--x) var(--y), transparent 10%, rgba(0, 0, 0, 0.95) 20%);
+}
+
+.note {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitle {
+    float: right;
+    color: aqua;
+    font-size: 14px;
+    margin: -10px 0px 0px 0px;
+    // margin-right: 10px;
+    letter-spacing: 2px;
+}

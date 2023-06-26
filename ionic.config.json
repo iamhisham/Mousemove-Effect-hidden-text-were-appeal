@@ -1,0 +1,7 @@
+{
+  "name": "mousemoveEffect",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
